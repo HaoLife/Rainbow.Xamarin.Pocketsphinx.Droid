@@ -6,4 +6,32 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+
+
+  <attr path="/api/package[@name='edu.cmu.pocketsphinx']/class[@name='JsgfIterator']/method[@name='next' and count(parameter)=0]"
+    name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='edu.cmu.pocketsphinx']/class[@name='Jsgf']/method[@name='iterator' and count(parameter)=0]"
+    name="managedReturn">Java.Util.IIterator</attr>
+
+  <attr path="/api/package[@name='edu.cmu.pocketsphinx']/class[@name='NBestIterator']/method[@name='next' and count(parameter)=0]"
+    name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='edu.cmu.pocketsphinx']/class[@name='NBestList']/method[@name='iterator' and count(parameter)=0]"
+    name="managedReturn">Java.Util.IIterator</attr>
+
+  <attr path="/api/package[@name='edu.cmu.pocketsphinx']/class[@name='NGramModelSetIterator']/method[@name='next' and count(parameter)=0]"
+    name="managedReturn">Java.Lang.Object</attr>
+  
+  <attr path="/api/package[@name='edu.cmu.pocketsphinx']/class[@name='NGramModelSet']/method[@name='iterator' and count(parameter)=0]"
+    name="managedReturn">Java.Util.IIterator</attr>
+
+
+  <attr path="/api/package[@name='edu.cmu.pocketsphinx']/class[@name='SegmentIterator']/method[@name='next' and count(parameter)=0]"
+    name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='edu.cmu.pocketsphinx']/class[@name='SegmentList']/method[@name='iterator' and count(parameter)=0]"
+    name="managedReturn">Java.Util.IIterator</attr>
+  
 </metadata>
